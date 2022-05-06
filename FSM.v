@@ -41,10 +41,10 @@ module FSM(
     );
     ///////////////////×´Ì¬»ú·¶Àý³ÌÐò////////////////////////////////////
     
-    localparam STATE1 = 4'b0000;
+    /*localparam STATE1 = 4'b0000;
     localparam STATE2 = 4'b0001;
     localparam STATE3 = 4'b0010;
-    localparam STATE4 = 4'b0100;
+    localparam STATE4 = 4'b0100;*/
     
     wire [3:0] state_nxt;
     wire [3:0] state_r;
